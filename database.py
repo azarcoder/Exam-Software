@@ -1,9 +1,9 @@
 import mysql.connector
 mydb=mysql.connector.connect(
-    host='localhost',
-    user='root',
-    password='1538',
-    database='t4teq'
+    host='HOSTNAME',
+    user='USERNAME',
+    password='XXXX YOUR DATABASE PASSWORD HERE XXXX',
+    database='XXXX YOUR DATABASE NAME HERE XXXX '
 ) 
 mycursor=mydb.cursor()
 #mycursor.execute('create table signup(username varchar(30),Rollno int not null primary key,password varchar(8))')
